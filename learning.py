@@ -236,3 +236,71 @@ set_1={0,1,2}
 set_2={2,3,4}
 
 print(dir(set_1))
+
+
+
+class Cybertruck:
+    marque ="tesla"
+    model ="cybertruck"
+    annee=2023
+
+    def klaxonner(self):
+        print("tut tu !")
+
+Cybertruck=Cybertruck()
+print(Cybertruck.marque)
+Cybertruck.klaxonner()
+print(Cybertruck.annee)
+Cybertruck.annee=2024
+print(Cybertruck.annee)
+
+
+"image.jpg".endswith(".jpg")
+
+"image.jpg".startswith("slm")  
+
+
+prenom="yasser"
+age=26
+phrase="je mappelle {} et j'ai {}".format(prenom,age)
+
+
+
+
+import random
+
+r=random.randint(0,1)
+print(r)
+
+
+
+
+
+import os 
+
+chemin= ""
+dossier=os.path.join(chemin,"dossier")
+print(dossier)
+
+
+import os 
+
+chemin= ""
+dossier=os.path.join(chemin,"dossier")
+if not os.path.exists(dossier)
+    os.makedirs(dossier)
+
+
+
+there is something to use it in python like : 
+
+python:
+
+"...",islower:ca veux que ce qu'i est dans le crocher est vrai ou faux(true,false)
+isdigit est pour les chiffres
+count : calcule le nombre de foix il ya se mots ou se chiffre ou se phrase ...
+find : la meme chose mais il calcule ou le (...) se start 
+random.randit : for a nombre 0 or 1 or 2 ....
+random.uniform:for a nombre decimal
+randrange give a final nombre but he start from 0 to the nombre that you give it to him
+os.makedirs:try to creat a new file 
